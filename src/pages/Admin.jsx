@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import { db } from '../utils/Firebase';
 import { collection, onSnapshot } from 'firebase/firestore';
 
 const questions = [

@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
-import { db } from '../utils/Firebase'; // Assurez-vous que le chemin est correct
 import { collection, addDoc } from 'firebase/firestore';
 
 const questions = [
